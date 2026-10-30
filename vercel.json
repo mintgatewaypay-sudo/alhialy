@@ -16,8 +16,6 @@
     { "src": "/assets/(.*)", "dest": "/public/assets/$1" },
     { "src": "/images/(.*)", "dest": "/public/images/$1" },
     { "src": "/(.*\\.(?:js|mjs|css|map|json|xml|txt|ico|svg|png|jpg|jpeg|gif|webp|avif|bmp|woff|woff2|ttf|eot|otf|mp4|webm|pdf|html))", "dest": "/public/$1" },
-    { "src": "/admin", "dest": "/public/admin.html" },
-    { "src": "/welcome", "dest": "/public/welcome.html" },
     { "src": "/(.*)", "dest": "/public/index.html" }
   ]
 }
